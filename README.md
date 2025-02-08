@@ -1,0 +1,3 @@
+# Unexpected Null Handling in JavaScript
+
+This repository demonstrates a common JavaScript bug related to loose equality (==) and null handling. The `foo` function is designed to add two numbers, but its null check is flawed due to the use of loose equality. This can lead to unexpected behavior when inputs might be null or undefined. The solution showcases how strict equality (===) should be used for reliable null and undefined checks.
